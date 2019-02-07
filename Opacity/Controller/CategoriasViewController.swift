@@ -31,8 +31,6 @@ class CategoriasViewController: UIViewController, UITextFieldDelegate {
     @IBAction func mostrarServidores(_ sender: UIButton) {
         tabBarController?.selectedIndex = 1
     }
-    
-    
 }
 
 extension CategoriasViewController: EscolherCategoriasDelegate {

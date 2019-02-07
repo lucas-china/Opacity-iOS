@@ -18,8 +18,10 @@ class ServidoresViewController: UIViewController {
         super.viewDidLoad()
         
         ordenarButton.createButton()
-        
-        categoriaLabel.text = Categoria.categoria.nome
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
+         categoriaLabel.text = Categoria.categoria.nome.isEmpty ? "Nenhum Servidor Selecionado" : Categoria.categoria.nome
     }
 
 }

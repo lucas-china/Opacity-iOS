@@ -11,6 +11,8 @@
 		6D63DC242200A3870006DAD8 /* ServidoresViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D63DC232200A3870006DAD8 /* ServidoresViewController.swift */; };
 		6DAB43CE21FFE29F00419370 /* PopOverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DAB43CD21FFE29F00419370 /* PopOverViewController.swift */; };
 		6DAB43D021FFE67100419370 /* Categoria.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DAB43CF21FFE67100419370 /* Categoria.swift */; };
+		6DC3C9DD220BBC2F005EAC4E /* SobreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DC3C9DC220BBC2F005EAC4E /* SobreViewController.swift */; };
+		6DC3C9DF220BCFD1005EAC4E /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DC3C9DE220BCFD1005EAC4E /* WebViewController.swift */; };
 		6DF721AA21F761BC00B79C7E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DF721A921F761BC00B79C7E /* AppDelegate.swift */; };
 		6DF721AC21F761BC00B79C7E /* CategoriasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DF721AB21F761BC00B79C7E /* CategoriasViewController.swift */; };
 		6DF721AF21F761BC00B79C7E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DF721AD21F761BC00B79C7E /* Main.storyboard */; };
@@ -23,6 +25,8 @@
 		6D63DC232200A3870006DAD8 /* ServidoresViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServidoresViewController.swift; sourceTree = "<group>"; };
 		6DAB43CD21FFE29F00419370 /* PopOverViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PopOverViewController.swift; path = Opacity/Controller/PopOverViewController.swift; sourceTree = SOURCE_ROOT; };
 		6DAB43CF21FFE67100419370 /* Categoria.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Categoria.swift; path = Opacity/Model/Categoria.swift; sourceTree = SOURCE_ROOT; };
+		6DC3C9DC220BBC2F005EAC4E /* SobreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SobreViewController.swift; sourceTree = "<group>"; };
+		6DC3C9DE220BCFD1005EAC4E /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = WebViewController.swift; path = Opacity/Controller/WebViewController.swift; sourceTree = "<group>"; };
 		6DF721A621F761BC00B79C7E /* Opacity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Opacity.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6DF721A921F761BC00B79C7E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6DF721AB21F761BC00B79C7E /* CategoriasViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriasViewController.swift; sourceTree = "<group>"; };
@@ -76,6 +80,7 @@
 				6DAB43CD21FFE29F00419370 /* PopOverViewController.swift */,
 				6DF721AB21F761BC00B79C7E /* CategoriasViewController.swift */,
 				6D63DC232200A3870006DAD8 /* ServidoresViewController.swift */,
+				6DC3C9DC220BBC2F005EAC4E /* SobreViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -91,6 +96,7 @@
 		6DF7219D21F761BC00B79C7E = {
 			isa = PBXGroup;
 			children = (
+				6DC3C9DE220BCFD1005EAC4E /* WebViewController.swift */,
 				6DF721A821F761BC00B79C7E /* Opacity */,
 				6DF721A721F761BC00B79C7E /* Products */,
 			);
@@ -190,9 +196,11 @@
 				6DAB43CE21FFE29F00419370 /* PopOverViewController.swift in Sources */,
 				6DF721AC21F761BC00B79C7E /* CategoriasViewController.swift in Sources */,
 				6DF721AA21F761BC00B79C7E /* AppDelegate.swift in Sources */,
+				6DC3C9DD220BBC2F005EAC4E /* SobreViewController.swift in Sources */,
 				6D56D38E21F7EE9000258A9D /* UIButton.swift in Sources */,
 				6D63DC242200A3870006DAD8 /* ServidoresViewController.swift in Sources */,
 				6DAB43D021FFE67100419370 /* Categoria.swift in Sources */,
+				6DC3C9DF220BCFD1005EAC4E /* WebViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

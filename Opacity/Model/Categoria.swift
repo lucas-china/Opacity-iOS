@@ -11,6 +11,6 @@ import Foundation
 class Categoria {
     static let categoria = Categoria()
     
-    var nome: String?
+    var nome: String = ""
     
 }
